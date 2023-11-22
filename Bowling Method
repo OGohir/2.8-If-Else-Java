@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Bowling
+{
+    public static void bowlingScore()
+    {
+        
+    Scanner input = new Scanner(System.in);
+    
+    System.out.println("What is your bowling score? ");
+    int answer = Integer.parseInt(input.nextLine());
+    
+    if (answer == 300) 
+    {
+        System.out.println("Perfect Score!");
+    }
+    
+    if (answer >= 270 && answer <= 289)
+    {
+        System.out.println("Not bad!");
+    }
+    
+    if (answer < 270)
+    {
+        System.out.println("Keep practicing");
+    }
+    
+    }
+    
+}
