@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class MathProblem
+{
+    public static void Question()
+    {
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("What is 10/2 + 5?: ");
+        int answer = Integer.parseInt(input.nextLine());
+        
+        if (answer == 5)
+        {
+            System.out.println("Correct!");
+        } else {
+            System.out.println("Incorrect...");
+        }
+    }
+}
