@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Quiz
+{
+    public static void Quiz() 
+    {
+        
+ 
+    Scanner input = new Scanner(System.in);
+    
+    System.out.println("Choose T or F");
+    String answer = input.nextLine();
+    
+    if (answer.equals("F"))
+    {
+        System.out.println("Choose between A, B, C, D, E: ");
+        String answer_1 = input.nextLine();
+        
+        if (answer_1.equals("B"))
+        {
+            System.out.println("You got 2/2");
+        }
+        
+    } else {
+        System.out.println("Sorry, but you got 0/2");
+    }
+    }
+}
